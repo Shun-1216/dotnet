@@ -41,7 +41,7 @@
     Public Function GetFullName(delim As String) As String
         Return Lastname & delim & Firstname
     End Function
-    Public Sub PrintInfo()
+    Public Overridable Sub PrintInfo()
         Console.WriteLine("姓名：" & Lastname & Firstname)
         Console.WriteLine("年齢：" & age)
     End Sub

@@ -2,6 +2,10 @@ Imports System
 
 Module Program
     Sub Main(args As String())
+        Dim salesperson As Sales = New Sales("êÁót", "â‘éq", 24, 15)
+        salesperson.PrintInfo()
+        Console.WriteLine()
+
         Console.WriteLine("âÔé–ñºÅF" & Employee.companyName)
         Employee.ClassInfo()
         Console.WriteLine()
